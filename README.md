@@ -2,7 +2,7 @@
 
 A full-stack web application for exploring and analyzing CSV datasets with interactive visualizations and filtering capabilities.
 
-## 🎯 Project Overview
+## Project Overview
 
 This application allows users to:
 - Upload CSV files
@@ -11,13 +11,13 @@ This application allows users to:
 - Filter and explore data dynamically
 - No authentication required - simple and teacher-friendly
 
-## 🏗️ Architecture
+## Architecture
 
 - **Frontend**: React (JavaScript) with Recharts for visualizations
 - **Backend**: FastAPI (Python) with Pandas for data processing
 - **Communication**: REST API with JSON responses
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 DataProjet/
@@ -42,7 +42,7 @@ DataProjet/
 └── README.md              # This file
 ```
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 ### Prerequisites
 
@@ -88,7 +88,7 @@ npm start
 
 Frontend will open automatically at: `http://localhost:3000`
 
-## 📊 How to Use
+## How to Use
 
 1. **Upload CSV File**
    - Click "Choose CSV file" button
@@ -111,25 +111,25 @@ Frontend will open automatically at: `http://localhost:3000`
    - Click "Apply Filter" to update
    - Click "Reset All" to clear filters
 
-## 🔧 Features
+## Features
 
 ### Backend Features
-- ✅ CSV file upload and processing
-- ✅ Automatic data type detection (numeric/categorical)
-- ✅ Statistical analysis (mean, min, max, median, std)
-- ✅ Dynamic filtering (range and category filters)
-- ✅ CORS enabled for frontend communication
-- ✅ RESTful API design
+-  CSV file upload and processing
+-  Automatic data type detection (numeric/categorical)
+-  Statistical analysis (mean, min, max, median, std)
+-  Dynamic filtering (range and category filters)
+-  CORS enabled for frontend communication
+-  RESTful API design
 
 ### Frontend Features
-- ✅ Clean, intuitive UI
-- ✅ File upload with validation
-- ✅ Real-time data visualization
-- ✅ Interactive filtering
-- ✅ Responsive design
-- ✅ Error handling and user feedback
+-  Clean, intuitive UI
+-  File upload with validation
+-  Real-time data visualization
+-  Interactive filtering
+-  Responsive design
+-  Error handling and user feedback
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### GET /
 Health check endpoint
@@ -148,7 +148,7 @@ Filter dataset
 Reset to original dataset
 - **Output**: Original dataset info
 
-## 📦 Dependencies
+##  Dependencies
 
 ### Backend
 - fastapi==0.109.0
@@ -163,7 +163,7 @@ Reset to original dataset
 - recharts@^2.10.3
 - react-scripts@5.0.1
 
-## 🧪 Testing with Sample Data
+##  Testing with Sample Data
 
 Create a sample CSV file (sample.csv):
 ```csv
@@ -177,7 +177,7 @@ Charlie,32,Phoenix,58000
 
 Upload this file to test all features!
 
-## 🛠️ Development Notes
+##  Development Notes
 
 ### Backend
 - Uses in-memory storage (dataset is stored in global variable)
@@ -190,7 +190,7 @@ Upload this file to test all features!
 - Fetch API for HTTP requests
 - Recharts for data visualization
 
-## 📝 Code Comments
+## Code Comments
 
 Both backend and frontend code include detailed comments explaining:
 - Function purposes
@@ -198,7 +198,7 @@ Both backend and frontend code include detailed comments explaining:
 - API interactions
 - Data transformations
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 **Backend not starting?**
 - Check Python version: `python --version`
@@ -220,7 +220,7 @@ Both backend and frontend code include detailed comments explaining:
 - Check browser console for errors
 - Verify backend is returning chart data
 
-## 📚 Learning Resources
+## Learning Resources
 
 This project demonstrates:
 - REST API development with FastAPI
@@ -231,7 +231,7 @@ This project demonstrates:
 - CORS configuration
 - Error handling and user feedback
 
-## 🎓 Teacher Notes
+## Teacher Notes
 
 This project is designed to be:
 - **Simple**: Clean code with extensive comments
@@ -240,11 +240,11 @@ This project is designed to be:
 - **Self-contained**: No external services or authentication
 - **Well-documented**: Comprehensive README files
 
-## 📄 License
+## License
 
 This project is created for educational purposes.
 
-## 👨‍💻 Support
+## Support
 
 For issues or questions:
 1. Check the README files in Backend/ and Frontend/ directories
